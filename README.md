@@ -1,4 +1,6 @@
-# Streamed Cache Interview Question
+# CoW protocol Interview Task: Solution
+
+## Streamed Cache Rust implementation
 
 You are given an API which returns the current temperature that is measured in different cities.
 The API exposes two ways to query it:
@@ -12,5 +14,3 @@ The goal of the cache is to always return the most recent value the API has deli
 
 To check your solution you can run `cargo test`, which runs a simple (non exhaustive) test on your implementation. Feel free to add more tests if you think important cases are not covered.
 Please try to not use any additional crates as dependencies.
-
-To submit a solution open a PR like you would usually do it.
